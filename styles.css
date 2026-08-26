@@ -1,3 +1,7 @@
+.logo {
+    width: 110px;
+}
+
 .cont-wiki {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -5,7 +9,7 @@
         "header header"
         "aside main"
         "footer footer";
-    gap: 5px;
+    gap: 18px;
 }
 
 header {
@@ -15,23 +19,43 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+
+    h1 {
+        color: rgb(109, 21, 109);
+    }
 }
 
 aside {
     grid-area: aside;
     background-color: white;
     padding: 20px;
+    border: 1px solid rgb(160, 160, 160);
+
+    a {
+        text-decoration: none;
+        color: rgb(10, 94, 68);
+    }
+
+    ul {
+        list-style: none;
+    }
 }
 
 main {
     grid-area: main;
     background-color: white;
     padding: 20px;
+    border: 1px solid rgb(160, 160, 160);
+
+    h1 {
+        color: rgb(11, 9, 134);
+    }
 
     h2,
     h3,
     h4 {
         border-bottom: 1px solid rgb(203, 203, 203);
+        color: rgb(10, 94, 68)
     }
 }
 
@@ -50,9 +74,12 @@ footer {
         margin: 0;
         padding: 0;
     }
+
+    a {
+        text-decoration: none;
+        color: rgb(11, 9, 134);
+    }
 }
-
-
 
 body {
     background-color: rgb(240, 240, 240);
