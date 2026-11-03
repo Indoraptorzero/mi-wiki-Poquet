@@ -159,3 +159,20 @@ body.modo-oscuro textarea {
     color: white;
     font-weight: bold;
 }
+
+/* Secciones plegables */
+.seccion > h2 {
+    cursor: pointer;
+}
+
+.seccion > h2::before {
+    content: "▾";
+}
+
+.seccion.plegada > h2::before {
+    content: "▸";
+}
+
+.seccion.plegada > .contenido-seccion {
+    display: none;
+}
