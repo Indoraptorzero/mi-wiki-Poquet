@@ -176,3 +176,8 @@ body.modo-oscuro textarea {
 .seccion.plegada > .contenido-seccion {
     display: none;
 }
+
+/* Discusión */
+#formulario-comentarios .error {
+    border: 1.5px solid rgb(200, 40, 40);
+}
