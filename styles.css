@@ -181,3 +181,13 @@ body.modo-oscuro textarea {
 #formulario-comentarios .error {
     border: 1.5px solid rgb(200, 40, 40);
 }
+
+#lista-comentarios {
+    list-style: none;
+}
+
+.comentario-publicado {
+    border: 1px solid rgb(130, 130, 130);
+    padding: 12px;
+    margin-bottom: 12px;
+}
